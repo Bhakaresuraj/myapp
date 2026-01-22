@@ -1,12 +1,14 @@
 import './App.css'
-
-let name = prompt("Enter your name :");
+import Product from './Product.jsx'
+let name = "suraj";
 function App() {
   return (
     <>
       <p>hello ,{name}</p>
       <p>Goog game {name}</p>
-    </>
+      < Product />
+    </>git
   )
 }
 export default App
+ 
