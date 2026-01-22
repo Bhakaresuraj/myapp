@@ -1,18 +1,12 @@
-import "./Product.css";
-
-function Product({ title, price, position, object }) {
-    // console.log(position);
-    let style = {
-        // backgroundColor: price >= 40000 ? "purple" : ""
-        backgroundColor:"aqua"
-    };
+import Card from "./card.jsx"
+import "./Product.css"
+export default function Product() {
+    
     return (
-        <div className="Product" >
-            <h1>{title}</h1>
-            <p>having price {price}</p>
-            {price >= 30000 && <p style={style}>Discount :10%</p>}
-        </div>
-    )
+    <div className="Product">
+        <Card idx={0}></Card>
+        <Card idx={1}></Card>
+        <Card idx={2}></Card>
+        <Card idx={3}></Card>
+    </div>);
 }
-
-export default Product;
