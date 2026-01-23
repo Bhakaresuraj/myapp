@@ -1,5 +1,5 @@
 import "./Price.css"
-export default function Price(oldPrice, newPrice) {
+export default function Price(oldPrice,  nprice) {
     let styles = {
         textDecorationLine: "line-through"
     }
@@ -7,8 +7,8 @@ export default function Price(oldPrice, newPrice) {
         fontWeight: "bold"
     }
     return <div className="Price">
-        <span style={styles}>{OldPrice}</span>
+        <span style={styles}>{oldPrice}</span>
         {/* &nbsp;&nbsp;&nbsp; */}
-        <span style={newstyles}>{newPrice}</span>
+        <span style={newstyles}>{nprice}</span>
     </div>
 }
