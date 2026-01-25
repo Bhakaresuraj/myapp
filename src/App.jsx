@@ -5,5 +5,4 @@ function App() {
         <Products></Products>
     </>
 }
-
 export default App;

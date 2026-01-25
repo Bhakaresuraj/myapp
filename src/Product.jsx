@@ -8,5 +8,6 @@ export default function Product() {
             <Card idx={1}></Card>
             <Card idx={2}></Card>
             <Card idx={3}></Card>
+            
         </div>);
 }
